@@ -68,4 +68,7 @@ results/ — Exported results, including differential-expression tables and cand
 README.md — Research overview, methods, data sources, findings, and limitations.
 
 Research Outputs:
+ [View Research Abstract (PDF)] (SInchana Joshi FA Abstract.pdf)
+- [View Research Award (PDF)] (Sinchana Nirguna Joshi - Virtual Best (1).pdf)
+
 
