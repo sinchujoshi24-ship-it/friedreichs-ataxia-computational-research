@@ -68,7 +68,9 @@ results/ — Exported results, including differential-expression tables and cand
 README.md — Research overview, methods, data sources, findings, and limitations.
 
 Research Outputs:
-- [View Research Abstract (PDF)] (./FA_Research_Conference_Abstract.pdf)
-- [View Research Award Top 20 out of 250+ entries (PDF)] (./FA_Research_Top_20_Award.pdf)
+- [View Research Abstract (PDF)](./FA_Research_Conference_Abstract.pdf)
+- [View Research Award: Top 20 out of 250+ Entries (PDF)](./FA_Research_Top_20_Award.pdf)
+
+
 
 
