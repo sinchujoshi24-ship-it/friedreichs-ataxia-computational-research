@@ -58,14 +58,9 @@ Computational predictions: A predicted ability to reverse a transcriptional sign
 Biological relevance: Candidate compounds require further investigation to determine whether their known targets and effects are relevant to FA.
 Clinical translation: Laboratory validation, safety assessment, and additional studies would be required before any candidate could be considered for clinical use.
 
-Reproducibility:
+Figures: 
 
-The project is intended to document its computational workflow so that other researchers can understand and, where possible, reproduce the analysis.
-Planned repository materials include:
-notebooks/ — Jupyter notebooks containing the analysis actually performed.
-figures/ — Figures generated from verified analysis results.
-results/ — Exported results, including differential-expression tables and candidate-compound findings, where available.
-README.md — Research overview, methods, data sources, findings, and limitations.
+<img width="682" height="420" alt="image" src="https://github.com/user-attachments/assets/8db094e1-5a62-4de2-8145-1047292704ef" />
 
 Research Outputs:
 
