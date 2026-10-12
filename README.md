@@ -54,7 +54,7 @@ Interpretation: Differential gene expression can help characterize molecular cha
 Figures and Visualization:
 
 Fig 1: Differential Gene-Expression Analysis of an Isogenic CRISPR Model of Friedreich's Ataxia
-[Volcano plot of differential gene expression](https://github.com/sinchujoshi24-ship-it/friedreichs-ataxia-computational-research/blob/main/volcano_plot_GSE244886.png)
+[Volcano plot of differential gene expression](volcano_plot_GSE244886.png)
 
 Description: Volcano plot illustrating differential gene expression in the GSE244886 isogenic CRISPR model associated with Friedreich's ataxia. The x-axis represents log2 fold change, while the y-axis represents the negative log10-transformed p-value. Red points indicate genes labeled as upregulated in FA, blue points indicate genes labeled as downregulated in FA, and gray points represent the remaining genes. The dashed horizontal line indicates the displayed significance threshold.
 
@@ -63,7 +63,7 @@ Interpretation: The plot shows the distribution of genes according to the magnit
 Limitation: Statistical significance does not establish biological importance or causation. The precise threshold, statistical method, and comparison direction should be documented alongside the analysis.
 
 Fig 2: Ranked Compound Combinations from Computational Drug-Repurposing Analysis
-[Ranked compound combinations](https://github.com/sinchujoshi24-ship-it/friedreichs-ataxia-computational-research/blob/main/ranked_compound_combinations.png)
+[Ranked compound combinations](ranked_compound_combinations.png)
 
 Description: Table presenting the top five ranked compound combinations identified by the computational analysis. The table includes a rank, an overlap score, and the compounds associated with each combination. The displayed candidates include Salermide, MST-312, NCGC00165289-01, SB 218078, and ABT-751.
 
