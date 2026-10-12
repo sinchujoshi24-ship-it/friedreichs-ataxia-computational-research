@@ -43,6 +43,20 @@ The current project results report 1,903 differentially expressed genes in the a
 These findings illustrate how gene-expression analysis and computational drug repurposing can be combined to generate hypotheses about potential therapeutic avenues for a rare genetic disorder.
 Interpretation: Differential gene expression can help characterize molecular changes in an experimental model, while computational drug repurposing approaches may help prioritize compounds for additional study. Neither differential expression nor computational prioritization alone establishes that a compound will improve disease outcomes.
 
+Figures and Visualization:
+
+Fig 1: Differential Gene-Expression Analysis of an Isogenic CRISPR Model of Friedreich's Ataxia
+[Volcano plot of differential gene expression](https://github.com/sinchujoshi24-ship-it/friedreichs-ataxia-computational-research/blob/main/volcano_plot_GSE244886.png)
+Description: Volcano plot illustrating differential gene expression in the GSE244886 isogenic CRISPR model associated with Friedreich's ataxia. The x-axis represents log2 fold change, while the y-axis represents the negative log10-transformed p-value. Red points indicate genes labeled as upregulated in FA, blue points indicate genes labeled as downregulated in FA, and gray points represent the remaining genes. The dashed horizontal line indicates the displayed significance threshold.
+Interpretation: The plot shows the distribution of genes according to the magnitude and statistical significance of their expression differences. Genes farther from zero on the x-axis have larger estimated expression changes, while genes higher on the y-axis have smaller p-values. These patterns help identify genes for further investigation into the molecular changes associated with FA.
+Limitation: Statistical significance does not establish biological importance or causation. The precise threshold, statistical method, and comparison direction should be documented alongside the analysis.
+
+Fig 2: Ranked Compound Combinations from Computational Drug-Repurposing Analysis
+[Ranked compound combinations](https://github.com/sinchujoshi24-ship-it/friedreichs-ataxia-computational-research/blob/main/ranked_compound_combinations.png)
+Description: Table presenting the top five ranked compound combinations identified by the computational analysis. The table includes a rank, an overlap score, and the compounds associated with each combination. The displayed candidates include Salermide, MST-312, NCGC00165289-01, SB 218078, and ABT-751.
+Interpretation: The table summarizes the highest-ranked combinations according to the analysis's reported ranking and overlap metric. It provides a starting point for investigating compounds that may warrant additional evaluation in the context of Friedreich's ataxia.
+Limitation: The overlap scores and rankings alone do not demonstrate therapeutic effectiveness, synergy, or safety. The metric's definition, the significance of the scores, and the criteria used to rank combinations should be explained. These candidates should be described as computationally prioritized, not experimentally validated treatments.
+
 Significance:
 
 This project explores a computational approach to an important challenge in rare disease research: identifying promising therapeutic leads when treatment options are limited.
@@ -57,10 +71,6 @@ Statistical uncertainty: The reliability of differential-expression findings dep
 Computational predictions: A predicted ability to reverse a transcriptional signature does not establish that a compound corrects the underlying disease mechanism.
 Biological relevance: Candidate compounds require further investigation to determine whether their known targets and effects are relevant to FA.
 Clinical translation: Laboratory validation, safety assessment, and additional studies would be required before any candidate could be considered for clinical use.
-
-Figures: 
-
-<img width="682" height="420" alt="image" src="https://github.com/user-attachments/assets/8db094e1-5a62-4de2-8145-1047292704ef" />
 
 Research Outputs:
 
