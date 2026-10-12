@@ -5,7 +5,9 @@ Project: Accelerating Therapeutic Discovery in Friedreich's Ataxia Through Compu
 Project Overview:
 
 Friedreich’s ataxia (FA) is a rare inherited neurodegenerative disorder commonly associated with reduced frataxin expression, mitochondrial dysfunction, and progressive neurological and cardiac complications. Limited treatment options make the search for additional therapeutic strategies an important area of research.
+
 Inspired by meeting two brothers living with FA and witnessing their determination despite significant hardships, I investigated how computational biology could contribute to therapeutic discovery. This project explores whether gene-expression patterns associated with frataxin deficiency can help identify existing compounds for further investigation as potential therapeutic candidates.
+
 Rather than developing a new drug from scratch, this approach uses computational analysis to investigate whether existing compounds may reverse disease-associated molecular patterns. Such findings could help prioritize candidates for future laboratory studies.
 
 Research Question:
@@ -16,8 +18,11 @@ Dataset
 
 Dataset: GSE244886 
 Source: NCBI Gene Expression Omnibus (GEO)
+
 Experimental model: Isogenic sensory neuron model
+
 Data type: Gene expression data
+
 Purpose: Investigate molecular differences associated with frataxin deficiency and develop a disease-associated transcriptional signature for computational drug repurposing analysis.
 Publicly available gene-expression datasets provide an opportunity to investigate disease associated molecular patterns without requiring the collection of new patient samples.
 
@@ -25,11 +30,14 @@ Methods:
 
 1. Data Acquisition and Preprocessing
 Gene-expression data were obtained from a public research repository for computational analysis. Data preparation is intended to support comparisons between relevant experimental conditions and ensure that the samples and expression measurements are interpreted appropriately.
+
 2. Differential Gene-Expression Analysis
 Gene expression differences between the relevant experimental conditions were investigated to identify genes associated with the disease model.
 The project results currently report 1,903 differentially expressed genes. The final analysis should document the statistical method, significance threshold, multiple testing correction, sample groups, and direction of expression changes used to obtain this result.
+
 3. Transcriptional Signature Interpretation
 Differentially expressed genes were considered as a potential molecular signature of frataxin deficiency. Interpreting this signature may help identify biological patterns associated with the experimental disease model and provide an input for subsequent computational drug repurposing approaches.
+
 4. Computational Drug Repurposing
 The project investigated existing compounds that could potentially reverse disease-associated gene expression patterns.
 Two candidate compounds identified in the current project results were:
@@ -47,29 +55,37 @@ Figures and Visualization:
 
 Fig 1: Differential Gene-Expression Analysis of an Isogenic CRISPR Model of Friedreich's Ataxia
 [Volcano plot of differential gene expression](https://github.com/sinchujoshi24-ship-it/friedreichs-ataxia-computational-research/blob/main/volcano_plot_GSE244886.png)
+
 Description: Volcano plot illustrating differential gene expression in the GSE244886 isogenic CRISPR model associated with Friedreich's ataxia. The x-axis represents log2 fold change, while the y-axis represents the negative log10-transformed p-value. Red points indicate genes labeled as upregulated in FA, blue points indicate genes labeled as downregulated in FA, and gray points represent the remaining genes. The dashed horizontal line indicates the displayed significance threshold.
+
 Interpretation: The plot shows the distribution of genes according to the magnitude and statistical significance of their expression differences. Genes farther from zero on the x-axis have larger estimated expression changes, while genes higher on the y-axis have smaller p-values. These patterns help identify genes for further investigation into the molecular changes associated with FA.
+
 Limitation: Statistical significance does not establish biological importance or causation. The precise threshold, statistical method, and comparison direction should be documented alongside the analysis.
 
 Fig 2: Ranked Compound Combinations from Computational Drug-Repurposing Analysis
 [Ranked compound combinations](https://github.com/sinchujoshi24-ship-it/friedreichs-ataxia-computational-research/blob/main/ranked_compound_combinations.png)
+
 Description: Table presenting the top five ranked compound combinations identified by the computational analysis. The table includes a rank, an overlap score, and the compounds associated with each combination. The displayed candidates include Salermide, MST-312, NCGC00165289-01, SB 218078, and ABT-751.
+
 Interpretation: The table summarizes the highest-ranked combinations according to the analysis's reported ranking and overlap metric. It provides a starting point for investigating compounds that may warrant additional evaluation in the context of Friedreich's ataxia.
+
 Limitation: The overlap scores and rankings alone do not demonstrate therapeutic effectiveness, synergy, or safety. The metric's definition, the significance of the scores, and the criteria used to rank combinations should be explained. These candidates should be described as computationally prioritized, not experimentally validated treatments.
 
 Significance:
 
 This project explores a computational approach to an important challenge in rare disease research: identifying promising therapeutic leads when treatment options are limited.
 By investigating disease-associated gene-expression patterns and exploring existing compounds, the research aims to demonstrate how computational methods can support early stage therapeutic discovery. The approach may help narrow the range of candidates for future investigation, although experimental validation is necessary before drawing conclusions about therapeutic efficacy.
-Limitations
-Computational findings generate hypotheses rather than establish clinical efficacy. Results depend on the dataset, experimental model, preprocessing choices, and statistical methods. Any proposed therapeutic candidates require additional validation.
 
 Limitations:
 
 Experimental model: Findings from an isogenic sensory neuron model may not capture the full complexity of FA in humans, including its cardiac manifestations.
+
 Statistical uncertainty: The reliability of differential-expression findings depends on sample size, data quality, statistical methods, and correction for multiple comparisons.
+
 Computational predictions: A predicted ability to reverse a transcriptional signature does not establish that a compound corrects the underlying disease mechanism.
+
 Biological relevance: Candidate compounds require further investigation to determine whether their known targets and effects are relevant to FA.
+
 Clinical translation: Laboratory validation, safety assessment, and additional studies would be required before any candidate could be considered for clinical use.
 
 Research Outputs:
