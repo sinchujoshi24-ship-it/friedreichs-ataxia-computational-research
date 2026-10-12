@@ -91,7 +91,7 @@ Clinical translation: Laboratory validation, safety assessment, and additional s
 Research Outputs:
 
 - [View Research Abstract (PDF)](https://github.com/sinchujoshi24-ship-it/friedreichs-ataxia-computational-research/blob/main/FA_Research_Conference_Abstract.pdf)
-- [View Research Award: Top 20 out of 250+ Entries (PDF)](https://github.com/sinchujoshi24-ship-it/friedreichs-ataxia-computational-research/blob/main/FA_Research_Top_20_Award.pdf)
+- [View Research Award: Top 20 out of 250+ Entries (PDF)](https://github.com/sinchujoshi24-ship-it/dream-high-glioblastoma-genomics/blob/main/FA_Research_Top_20_Award.pdf)
 
 
 
